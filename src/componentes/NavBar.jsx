@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="navbar px-24 backdrop-blur-xl bg-white/30 z-50 fixed">
+    <div className="navbar px-60 bg-white/30 z-50 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -71,7 +71,7 @@ const NavBar = () => {
             }
             to="/coffees"
           >
-            Coffees
+            Statistics
           </NavLink>
           <NavLink
             className={({ isActive }) =>
