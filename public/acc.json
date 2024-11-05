@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Dell XPS 13",
-        "img": "https://example.com/images/dell_xps_13.jpg",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-BD-Price-1.jpg",
         "category": "Laptop",
         "price": 999.99,
         "desc": "A compact and powerful laptop with stunning visuals.",
@@ -17,7 +17,7 @@
     {
         "id": "2",
         "title": "Apple MacBook Air",
-        "img": "https://example.com/images/macbook_air.jpg",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/APPLE-Macbook-Air-8-1.jpg",
         "category": "MacBook",
         "price": 899.99,
         "desc": "Lightweight and powerful, perfect for everyday tasks.",
@@ -32,7 +32,7 @@
     {
         "id": "3",
         "title": "HP Spectre x360",
-        "img": "https://example.com/images/hp_spectre_x360.jpg",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/HP-Spectre-16-F1013DX-in-BD.jpg",
         "category": "Laptop",
         "price": 1299.99,
         "desc": "A versatile 2-in-1 laptop with an elegant design.",
@@ -47,7 +47,7 @@
     {
         "id": "4",
         "title": "Samsung Galaxy S21",
-        "img": "https://example.com/images/samsung_galaxy_s21.jpg",
+        "img": "https://cdn.dxomark.com/wp-content/uploads/medias/post-73433/galaxys21_ultra-2048x1536-1.jpg",
         "category": "Phone",
         "price": 799.99,
         "desc": "The latest smartphone with a powerful camera and display.",
@@ -62,7 +62,7 @@
     {
         "id": "5",
         "title": "iPhone 13 Pro",
-        "img": "https://example.com/images/iphone_13_pro.jpg",
+        "img": "https://cdn.dxomark.com/wp-content/uploads/medias/post-94778/Apple-iPhone-13-Pro-featured-image-packshot-review-1024x691.jpg",
         "category": "IPhone",
         "price": 999.99,
         "desc": "A premium smartphone with advanced features.",
@@ -77,7 +77,7 @@
     {
         "id": "6",
         "title": "Google Pixel 6",
-        "img": "https://example.com/images/google_pixel_6.jpg",
+        "img": "https://cdn.dxomark.com/wp-content/uploads/drafts/post-103489/Google-Pixel-6-featured-image-packshot-review-Recovered-1024x691.jpg",
         "category": "Phone",
         "price": 599.99,
         "desc": "A smartphone with stock Android experience and great camera.",
@@ -92,7 +92,7 @@
     {
         "id": "7",
         "title": "Fitbit Versa 3",
-        "img": "https://example.com/images/fitbit_versa_3.jpg",
+        "img": "https://adminapi.applegadgetsbd.com/storage/media/large/Fitbit-Versa-3-Smart-Watch-Pink-2759.jpg",
         "category": "Smartwatch",
         "price": 229.99,
         "desc": "A smartwatch with fitness tracking and long battery life.",
@@ -107,7 +107,7 @@
     {
         "id": "8",
         "title": "Apple Watch Series 7",
-        "img": "https://example.com/images/apple_watch_7.jpg",
+        "img": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_nike-01_09142021_carousel.jpg.large.jpg",
         "category": "Smartwatch",
         "price": 399.99,
         "desc": "The most advanced Apple Watch with a larger display.",
@@ -122,7 +122,7 @@
     {
         "id": "9",
         "title": "Garmin Forerunner 245",
-        "img": "https://example.com/images/garmin_forerunner_245.jpg",
+        "img": "https://www.garmin.sa/wp-content/uploads/2022/05/cf-lg-68fc3b16-996d-47fc-8b75-fe7c6c9ac50d.jpg",
         "category": "Smartwatch",
         "price": 349.99,
         "desc": "A running watch with advanced performance metrics.",
@@ -137,7 +137,7 @@
     {
         "id": "10",
         "title": "Wireless Earbuds",
-        "img": "https://example.com/images/wireless_earbuds.jpg",
+        "img": "https://gadgetnmusic.com/wp-content/uploads/2023/07/boAt-Airdopes-391-True-Wireless-Earbuds.jpg.webp",
         "category": "Accessory",
         "price": 149.99,
         "desc": "High-quality wireless earbuds with noise cancellation.",
@@ -152,7 +152,7 @@
     {
         "id": "11",
         "title": "USB-C Hub",
-        "img": "https://example.com/images/usb_c_hub.jpg",
+        "img": "https://www.bdshop.com/pub/media/catalog/product/cache/0a9842a5e3033a11158d10717601d786/w/i/wiwu_a831hrt_8-in-1_usb-c_hub_adapter_in_bdshop.jpg",
         "category": "Accessory",
         "price": 49.99,
         "desc": "A versatile USB-C hub for all your connectivity needs.",
@@ -167,7 +167,7 @@
     {
         "id": "12",
         "title": "Portable Laptop Stand",
-        "img": "https://example.com/images/portable_laptop_stand.jpg",
+        "img": "https://s3-eu-west-1.amazonaws.com/backcslimages/newsite/product-images/1500-1500/FoldineX-Laptop-Stand.jpg",
         "category": "Accessory",
         "price": 39.99,
         "desc": "An ergonomic laptop stand for comfortable viewing.",

@@ -5,8 +5,7 @@ import myImage from "../assets/banner.jpg";
 const Banner = () => {
   return (
     <div className="relative w-full flex min-h-[calc(100vh-232px)] flex-col items-center bg-[#9538E2] rounded-2xl p-8 mb-72">
-     
-      <div className="text-center mt-8">
+      <div className="text-center ">
         <Heading
           title={
             <>
@@ -29,9 +28,12 @@ const Banner = () => {
         </button>
       </div>
 
-     
       <div className="absolute bottom-[-40%] flex justify-center w-full  ">
-        <img className="border border-t-8 border-white/25 w-[800px] h-[500px] object-cover rounded-xl shadow-lg " src={myImage} alt="Gadget Heaven Banner " />
+        <img
+          className="border border-t-8 border-white/25 w-[800px] h-[500px] object-cover rounded-xl shadow-lg "
+          src={myImage}
+          alt="Gadget Heaven Banner "
+        />
       </div>
     </div>
   );
