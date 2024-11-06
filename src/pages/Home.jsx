@@ -2,10 +2,9 @@ import { Outlet } from "react-router-dom";
 import Banner from "../componentes/Banner";
 
 import { Helmet } from "react-helmet";
-import Categories from "../componentes/Categories";
 
-// import AccCards from "../componentes/AccCards";
-// import Hello from "../componentes/Hello";
+
+
 
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
         Explore Cutting-Edge Gadgets
       </h2>
       
-      <Categories ></Categories>
+      
       
       
       <Outlet />
