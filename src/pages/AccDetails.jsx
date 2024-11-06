@@ -64,7 +64,7 @@ const AccDetails = () => {
         <div className="flex gap-6">
           {/* Image Section */}
           <div className="w-1/3 bg-gray-200 rounded-lg overflow-hidden">
-            <img className="cover" src={img} alt={title} />
+            <img className="cover h-full" src={img} alt={title} />
           </div>
 
           {/* Details Section */}

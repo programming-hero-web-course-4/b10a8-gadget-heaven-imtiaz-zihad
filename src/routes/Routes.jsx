@@ -8,11 +8,15 @@ import AccDetails from "../pages/AccDetails";
 
 import DashCart from "../componentes/DashCart";
 import DashWish from "../componentes/DashWish";
+import ErrorPage from "../Erroepage/ErrorPage";
+
+
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<ErrorPage />,
     children: [
       {
         path: "/",

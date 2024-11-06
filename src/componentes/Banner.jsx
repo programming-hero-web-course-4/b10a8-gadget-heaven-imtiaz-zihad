@@ -1,8 +1,10 @@
 import Heading from "./Heading";
 
 import myImage from "../assets/banner.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
+  const navigate = useNavigate();
   return (
     <div className="relative w-full flex min-h-[calc(100vh-232px)] flex-col items-center bg-[#9538E2] rounded-2xl p-8 mb-72">
       <div className="text-center ">
@@ -23,7 +25,9 @@ const Banner = () => {
             </>
           }
         />
-        <button className="mt-6 px-8 py-3 bg-white text-[#9538E2] font-semibold rounded-full shadow-lg">
+        <button 
+         onClick={() => navigate(`/dashboard`)}
+        className="mt-6 px-8 py-3 bg-white text-[#9538E2] font-semibold rounded-full shadow-lg">
           Shop Now
         </button>
       </div>

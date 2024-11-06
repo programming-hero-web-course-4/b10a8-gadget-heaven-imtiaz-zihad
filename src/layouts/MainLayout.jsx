@@ -3,10 +3,17 @@ import { Outlet } from "react-router-dom";
 import NavBar from "../componentes/NavBar";
 import { Toaster } from 'react-hot-toast';
 
+
+
+
 const MainLayout = () => {
+
+  
   return (
-    <div>
+   
+     <div>
       {/* NavBar */}
+      
       <Toaster />
 
       <div  className="h-16">
@@ -20,6 +27,7 @@ const MainLayout = () => {
       {/* Footer */}
       <Footer></Footer>
     </div>
+  
   );
 };
 

@@ -3,9 +3,15 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 
 const NavBar = () => {
-  const {pathname} = useLocation()
+  const { pathname } = useLocation();
   return (
-    <div className={`navbar mt-3 w-4/5 mx-auto px-60 z-50 ${pathname === '/' ? 'bg-[#9538E2] rounded-2xl text-white font-bold' : 'bg-white/30'}`}>
+    <div
+      className={`navbar mt-3 w-4/5 mx-auto  z-50 ${
+        pathname === "/"
+          ? "bg-[#9538E2] rounded-2xl text-white font-bold"
+          : "bg-white/30"
+      }`}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -87,17 +93,17 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end flex gap-5">
+        <div className=" bg-white rounded-full card shadow-3xl ">
+          <FaShoppingCart className="p-2 text-3xl text-black" />
+        </div>
         <div className="text-3xl bg-white rounded-full card shadow-3xl ">
-          <FaShoppingCart className="p-2 text-black" /></div>
-        <div className="text-3xl bg-white rounded-full card shadow-3xl ">
-          <FaRegHeart className="p-2 text-black" /></div>
-        
+          <FaRegHeart className="p-2 text-black" />
+        </div>
       </div>
 
-
-      {
-         pathname === '/' && <div  className="absolute p-3 bg-warning rounded-full cursor-pointer -top-5 -right-5"></div>
-      }
+      {pathname === "/" && (
+        <div className="absolute p-3 bg-warning rounded-full cursor-pointer -top-5 -right-5"></div>
+      )}
     </div>
   );
 };

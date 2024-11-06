@@ -3,16 +3,13 @@ import { useEffect, useState } from "react";
 import { getAllCart, getAllWish, removeFromWish } from "../utils";
 import { FaDeleteLeft } from "react-icons/fa6";
 const DashWish = () => {
-
-    const [accs, setAccs] = useState([]);
+  const [accs, setAccs] = useState([]);
 
   useEffect(() => {
     const wishs = getAllWish();
 
     setAccs(wishs);
   }, []);
-
-
 
   const handleWishRemove = (id) => {
     removeFromWish(id);
@@ -53,7 +50,6 @@ const DashWish = () => {
           </div>
         ))}
       </div>
-
     </div>
   );
 };

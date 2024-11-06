@@ -48,13 +48,13 @@ const addToWish = (acc) => {
   localStorage.setItem("wishs", JSON.stringify(wishs));
   toast.success("Successfully added!");
 };
-// remove wishes from local storage 
-const removeFromWish = (id) =>{
-    const wishs = getAllWish();
-    const remaining = wishs.filter((item) => item.id != id);
-    localStorage.setItem("wishs", JSON.stringify(remaining));
+// remove wishes from local storage
+const removeFromWish = (id) => {
+  const wishs = getAllWish();
+  const remaining = wishs.filter((item) => item.id != id);
+  localStorage.setItem("wishs", JSON.stringify(remaining));
   toast.success("Successfully Removed!");
-}
+};
 // remove a acc from local storage
 const removeFromCart = (id) => {
   const carts = getAllCart();
@@ -63,4 +63,17 @@ const removeFromCart = (id) => {
   toast.success("Successfully Removed!");
 };
 
-export { addToCart, getAllCart, removeFromCart ,addToWish, removeFromWish, getAllWish};
+//clear cart
+const clearCart = () => {
+  localStorage.removeItem("carts");
+};
+
+export {
+  addToCart,
+  getAllCart,
+  removeFromCart,
+  addToWish,
+  removeFromWish,
+  getAllWish,
+  clearCart,
+};
