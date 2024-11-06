@@ -9,6 +9,7 @@ import AccDetails from "../pages/AccDetails";
 import DashCart from "../componentes/DashCart";
 import DashWish from "../componentes/DashWish";
 import ErrorPage from "../Erroepage/ErrorPage";
+import Hello from "../componentes/Hello";
 
 
 
@@ -32,6 +33,11 @@ const routes = createBrowserRouter([
             path: "/",
             element: <AccCards></AccCards>,
             loader: () => fetch("../acc.json"),
+          },
+          {
+            path: "/",
+            element: <Hello />,
+            loader: () => fetch("../categories.json"),
           },
         ],
       },

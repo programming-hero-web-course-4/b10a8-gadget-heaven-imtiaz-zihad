@@ -102,7 +102,7 @@ const NavBar = () => {
       </div>
 
       {pathname === "/" && (
-        <div className="absolute p-3 bg-warning rounded-full cursor-pointer -top-5 -right-5"></div>
+        <div className="hidden absolute p-3 bg-warning rounded-full cursor-pointer -top-5 -right-5"></div>
       )}
     </div>
   );

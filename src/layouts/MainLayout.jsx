@@ -1,22 +1,18 @@
 import Footer from "../componentes/Footer";
 import { Outlet } from "react-router-dom";
 import NavBar from "../componentes/NavBar";
-import { Toaster } from 'react-hot-toast';
-
-
+import { Toaster } from "react-hot-toast";
 
 
 const MainLayout = () => {
-
-  
   return (
-   
-     <div>
+    <div>
+     
       {/* NavBar */}
-      
+
       <Toaster />
 
-      <div  className="h-16">
+      <div className="h-16">
         <NavBar></NavBar>
       </div>
 
@@ -27,7 +23,6 @@ const MainLayout = () => {
       {/* Footer */}
       <Footer></Footer>
     </div>
-  
   );
 };
 

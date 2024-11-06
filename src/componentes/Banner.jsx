@@ -2,11 +2,12 @@ import Heading from "./Heading";
 
 import myImage from "../assets/banner.jpg";
 import { useNavigate } from "react-router-dom";
+import MainLayout from "../layouts/MainLayout";
 
 const Banner = () => {
   const navigate = useNavigate();
   return (
-    <div className="relative w-full flex min-h-[calc(100vh-232px)] flex-col items-center bg-[#9538E2] rounded-2xl p-8 mb-72">
+    <div className="relative mt-10 w-full flex min-h-[calc(100vh-232px)] flex-col items-center bg-[#9538E2] rounded-2xl p-8 mb-72">
       <div className="text-center ">
         <Heading
           title={
@@ -38,6 +39,9 @@ const Banner = () => {
           src={myImage}
           alt="Gadget Heaven Banner "
         />
+      </div>
+      <div className="hidden">
+        <MainLayout title={"hello"}></MainLayout>
       </div>
     </div>
   );

@@ -182,7 +182,7 @@
     {
         "id": "13",
         "title": "Lenovo ThinkPad X1 Carbon",
-        "img": "https://cdn.lenovo.com/na/products/lenovo-laptop-thinkpad-x1-carbon-gen10.jpg",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/LENOVO-Thinkpad-10-2.jpg",
         "category": "Laptop",
         "price": 1399.99,
         "desc": "A business-grade laptop with high performance and durability.",
@@ -197,7 +197,7 @@
     {
         "id": "14",
         "title": "Asus ROG Zephyrus G14",
-        "img": "https://dlcdnwebimgs.asus.com/gain/B45B10D2-7635-4E36-B4E4-8E9E4857A36B/fwebp",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/Asus-ROG-Zephyrus-6-15.jpg",
         "category": "Laptop",
         "price": 1499.99,
         "desc": "A powerful gaming laptop with impressive performance and portability.",
@@ -212,7 +212,7 @@
     {
         "id": "15",
         "title": "Microsoft Surface Laptop 5",
-        "img": "https://cdn.microsoftstore.com/store/msusa/en_US/pdp/MS_SurfaceLaptop5-plat_gallery-image-1.jpg",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/Microsoft-Surface-Laptop-5-Ultrabook-Price-in-BD-3.jpg",
         "category": "Laptop",
         "price": 1299.99,
         "desc": "A sleek and stylish laptop with touchscreen capabilities.",
@@ -227,7 +227,7 @@
     {
         "id": "16",
         "title": "Acer Swift 3",
-        "img": "https://static.acer.com/up/Resource/Acer/Laptops/Swift_3/Images/20220302/acer-laptop-swift-3-main.jpg",
+        "img": "https://computermania-bd.b-cdn.net/wp-content/uploads/ACER-5-4.jpg",
         "category": "Laptop",
         "price": 799.99,
         "desc": "An affordable yet powerful laptop suitable for students and professionals.",
@@ -242,7 +242,7 @@
     {
         "id": "17",
         "title": "Apple MacBook Pro 14\"",
-        "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_US",
+        "img": "https://www.apple.com/v/macbook-pro-14-and-16/a/images/overview/hero/hero_intro_endframe__e6khcva4hkeq_large.jpg",
         "category": "MacBook",
         "price": 1999.99,
         "desc": "A high-performance laptop with advanced capabilities and stunning display.",
@@ -257,7 +257,7 @@
     {
         "id": "18",
         "title": "iPhone 14 Pro",
-        "img": "https://cdn.dxomark.com/wp-content/uploads/medias/post-101001/iPhone-14-Pro-featured-image-packshot-review.jpg",
+        "img": "https://cdn.dxomark.com/wp-content/uploads/medias/post-126771/Apple-iPhone-14-Pro_FINAL_featured-image-packshot-review-1.jpg",
         "category": "IPhone",
         "price": 1099.99,
         "desc": "A flagship smartphone with advanced camera and performance.",

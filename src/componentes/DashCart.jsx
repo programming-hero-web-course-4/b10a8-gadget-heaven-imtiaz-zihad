@@ -3,6 +3,7 @@ import { FaSort } from "react-icons/fa";
 import { getAllCart, removeFromCart, clearCart } from "../utils";
 import { FaDeleteLeft } from "react-icons/fa6";
 import verify from "../assets/Group.png";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -11,6 +12,7 @@ const DashCart = () => {
   const [sorts, setSorts] = useState([]);
   const [isSorted, setIsSorted] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const navigate = useNavigate();
  
 
   const handleSort = () => {
@@ -44,6 +46,7 @@ const DashCart = () => {
     setIsModalOpen(false);
     clearCart();
     setAccs([]);
+    navigate("/"); 
   };
   
 

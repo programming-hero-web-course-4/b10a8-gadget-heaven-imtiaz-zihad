@@ -1,9 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLoaderData } from "react-router-dom";
 /* eslint-disable react/prop-types */
 
-const Categories = ({ categories }) => {
+const Categories = () => {
+  const categories = useLoaderData();
   return (
-    <div role="tablist" className="tabs tabs-lifted">
+    <div>
+      <div  className="tabs tabs-lifted">
+      
       {categories.map((category) => (
         <NavLink
           key={category.category}
@@ -14,12 +17,18 @@ const Categories = ({ categories }) => {
           }
         >
           {category.category}
+          
         </NavLink>
         
       ))}
 
       
     </div>
+
+    
+    </div>
+
+      
   );
 };
 

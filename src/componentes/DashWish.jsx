@@ -2,7 +2,11 @@ import { useEffect, useState } from "react";
 
 import { getAllCart, getAllWish, removeFromWish } from "../utils";
 import { FaDeleteLeft } from "react-icons/fa6";
+import { Helmet } from "react-helmet";
 const DashWish = () => {
+  <Helmet>
+  <title>hello</title>
+</Helmet>
   const [accs, setAccs] = useState([]);
 
   useEffect(() => {

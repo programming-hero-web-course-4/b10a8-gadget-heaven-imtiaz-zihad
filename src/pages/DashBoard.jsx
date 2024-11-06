@@ -1,4 +1,5 @@
 
+import { Helmet } from "react-helmet";
 import Heading from "../componentes/Heading";
 
 
@@ -13,6 +14,9 @@ const DashBoard = () => {
   
   return (
     <>
+       <Helmet>
+        <title>Dashboard -Gadget heaven</title>
+      </Helmet>
       <div className=" text-black px-8">
         <div className="py-5 bg-[#9538E2] ">
           <Heading
