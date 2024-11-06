@@ -58,6 +58,14 @@ const NavBar = () => {
             >
               Dashboard
             </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `font-bold ${isActive ? "text-warning" : "hover:text-warning"}`
+              }
+              to="/abouts"
+            >
+              About Us
+            </NavLink>
           </ul>
         </div>
         <Link to="/" className=" text-xl">
@@ -89,6 +97,14 @@ const NavBar = () => {
             to="/dashboard"
           >
             Dashboard
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `font-bold ${isActive ? "text-warning" : "hover:text-warning"}`
+            }
+            to="/abouts"
+          >
+            About Us
           </NavLink>
         </ul>
       </div>

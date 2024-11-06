@@ -10,6 +10,7 @@ import DashCart from "../componentes/DashCart";
 import DashWish from "../componentes/DashWish";
 import ErrorPage from "../Erroepage/ErrorPage";
 import Hello from "../componentes/Hello";
+import About from "../componentes/ABout";
 
 
 
@@ -44,6 +45,10 @@ const routes = createBrowserRouter([
       {
         path: "/statics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: "/abouts",
+        element: <About></About>,
       },
       {
         path: "/dashboard",

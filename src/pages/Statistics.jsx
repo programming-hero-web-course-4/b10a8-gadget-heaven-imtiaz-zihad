@@ -1,13 +1,12 @@
-   
 import { Helmet } from "react-helmet";
 const Statistics = () => {
-    return (
-        <div>
-             <Helmet>
+  return (
+    <div>
+      <Helmet>
         <title>Statists -Gadget heaven</title>
       </Helmet>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Statistics;
